@@ -1,0 +1,86 @@
+/*General CSS*/
+body {
+	background-color: white;
+	padding: 0px;
+	margin: 0px;
+	font-family: "Arial", "Verdana";
+	font-size: 16px; 
+}
+
+nav {
+	background-color: black;
+	color: white;
+
+}
+
+nav #nav_ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+nav ul li {
+	padding: 12px;
+	text-align: center;
+	border: 1px solid silver;
+	transition: background-color 0.3s, transform .2s;
+}
+
+nav ul li:hover {
+	background-color: dimgray;
+	transform: scale(1.5)
+}
+
+a {
+	text-decoration: none;
+	color: white
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*for small screen*/
+@media only screen and (min-width: 700px) {
+
+	nav ul {
+		text-align: right;
+	}
+	nav ul li {
+		display: inline-block;
+		border-bottom: 0px;
+		text-align: left;
+	}
+}
